@@ -1824,11 +1824,47 @@ Hal ini dilakukan agar pengembangan tetap mengikuti kebutuhan pengguna nyata dan
 
 ---
 
+# Contributing
+
+Kontribusi pengembangan sangat terbuka, terutama untuk mahasiswa, dosen, dan developer yang ingin mengembangkan SIMDIS lebih lanjut.
+
+Alur kontribusi yang direkomendasikan:
+
+1. Fork repository.
+2. Buat branch fitur atau perbaikan.
+3. Lakukan perubahan dan testing.
+4. Commit perubahan.
+5. Push branch.
+6. Buat Pull Request.
+
+Contoh:
+
+```bash
+git checkout -b feature/nama-fitur
+git add .
+git commit -m "feat: deskripsi perubahan"
+git push origin feature/nama-fitur
+```
+
+Pastikan kontribusi tidak menyertakan:
+
+- `.env`
+- credential database
+- APP_KEY
+- private key
+- dokumen surat production
+- backup production
+- data pribadi pengguna
+
+---
+
 # License
 
-Internal Project / Private Deployment.
+Project ini menggunakan **MIT License**.
 
-Penggunaan, distribusi, dan pengembangan lebih lanjut mengikuti kebijakan pemilik project dan institusi pengguna.
+SIMDIS Universitas dapat digunakan, dipelajari, dimodifikasi, dan dikembangkan lebih lanjut, termasuk untuk kegiatan pembelajaran dan pengembangan oleh mahasiswa.
+
+Lihat file [`LICENSE`](LICENSE) untuk ketentuan lengkap.
 
 ---
 

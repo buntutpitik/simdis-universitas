@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Seed data master aplikasi.
      */
     public function run(): void
     {
@@ -16,10 +16,6 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,
             PermissionSeeder::class,
             RolePermissionSeeder::class,
-            UserSeeder::class,
-
-            IncomingLetterSeeder::class,
-            OutgoingLetterSeeder::class,
         ]);
     }
 }

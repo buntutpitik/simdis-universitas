@@ -57,15 +57,15 @@ class RolePermissionSeeder extends Seeder
                 'reports.view',
             ]);
 
-        // Staff
+        // Staf
         Role::findByName('Staf', 'web')
             ->syncPermissions([
                 'dashboard.view',
 
                 'incoming.view',
-                
+                'incoming.create',
+
                 'outgoing.view',
-                'outgoing.create',
 
                 'disposition.view',
                 'disposition.process',
