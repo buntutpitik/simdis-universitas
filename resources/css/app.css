@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+|--------------------------------------------------------------------------
+| SIMDIS Action Bar
+|--------------------------------------------------------------------------
+*/
+
+.simdis-action-bar{
+    position: sticky;
+    top: 57px;
+    z-index: 1030;
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:.5rem;
+
+    padding:12px 0;
+
+    background:#f4f6f9;
+
+    border-bottom:1px solid #dee2e6;
+
+    margin-bottom:20px;
+}
